@@ -6,31 +6,67 @@
 //
 
 import UIKit
+import SwiftyBeaver
+import IQKeyboardManagerSwift
+
+let CTLog = SwiftyBeaver.self
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    var allowOrentitaionRotation: Bool = false
+    
+    var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if #available(iOS 13.0, *) {
+            let app = UINavigationBarAppearance()
+            app.configureWithDefaultBackground()
+            app.backgroundColor = .themeColor
+            app.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.themeWhite, NSAttributedString.Key.font: UIFont.systemFont(ofSize: adaptScreen(18), weight: .medium)]
+            app.shadowImage = UIImage(color: UIColor.lineColor, size: CGSize(width: ScreenWidth, height: 0.6))
+            app.shadowColor = UIColor.clear
+            UINavigationBar.appearance().scrollEdgeAppearance = app
+            UINavigationBar.appearance().standardAppearance = app
+        }
+        
+        self.onInit()
+        self.keyboard()
+        self.configThird(application, launchOptions: launchOptions)
+        
+        let tabbar = CTTabBarController()
+        self.window = UIWindow(frame: Bounds)
+        self.window?.backgroundColor = UIColor.themeWhite
+        self.window?.rootViewController = tabbar
+        self.window?.makeKeyAndVisible()
+        
+//        Thread.sleep(forTimeInterval: 2)
+        
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        CTLog.debug("enenen-allowOrentitaionRotation" + String(self.allowOrentitaionRotation))
+        if self.allowOrentitaionRotation {
+            return .allButUpsideDown
+        } else {
+            return .portrait
+        }
     }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    
+    private func onInit() {
+        
     }
-
+    
+    private func keyboard() {
+        
+    }
+    
+    private func configThird(_ application: UIApplication, launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
+        
+    }
 
 }
 

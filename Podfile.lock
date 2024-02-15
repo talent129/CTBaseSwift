@@ -1,0 +1,162 @@
+PODS:
+  - Alamofire (5.8.1)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - DateTimePicker (2.5.3)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManagerSwift (6.5.16)
+  - JKCountDownButton (1.3.0)
+  - JXCategoryView (1.6.1)
+  - JXPhotoBrowser (3.1.5)
+  - KeychainAccess (4.2.2)
+  - Kingfisher (7.11.0)
+  - MarqueeLabel (4.3.2)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.6)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - ObjectMapper (4.2.0)
+  - PanModal (1.2.7)
+  - ReachabilitySwift (5.0.0)
+  - RTRootNavigationController (0.8.1):
+    - RTRootNavigationController/Core (= 0.8.1)
+  - RTRootNavigationController/Core (0.8.1)
+  - SnapKit (5.6.0)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftDate (6.3.1)
+  - SwifterSwift (6.0.0):
+    - SwifterSwift/AppKit (= 6.0.0)
+    - SwifterSwift/Combine (= 6.0.0)
+    - SwifterSwift/CoreAnimation (= 6.0.0)
+    - SwifterSwift/CoreGraphics (= 6.0.0)
+    - SwifterSwift/CoreLocation (= 6.0.0)
+    - SwifterSwift/CryptoKit (= 6.0.0)
+    - SwifterSwift/Dispatch (= 6.0.0)
+    - SwifterSwift/Foundation (= 6.0.0)
+    - SwifterSwift/HealthKit (= 6.0.0)
+    - SwifterSwift/MapKit (= 6.0.0)
+    - SwifterSwift/SceneKit (= 6.0.0)
+    - SwifterSwift/SpriteKit (= 6.0.0)
+    - SwifterSwift/StoreKit (= 6.0.0)
+    - SwifterSwift/SwiftStdlib (= 6.0.0)
+    - SwifterSwift/UIKit (= 6.0.0)
+    - SwifterSwift/WebKit (= 6.0.0)
+  - SwifterSwift/AppKit (6.0.0)
+  - SwifterSwift/Combine (6.0.0)
+  - SwifterSwift/CoreAnimation (6.0.0)
+  - SwifterSwift/CoreGraphics (6.0.0)
+  - SwifterSwift/CoreLocation (6.0.0)
+  - SwifterSwift/CryptoKit (6.0.0)
+  - SwifterSwift/Dispatch (6.0.0)
+  - SwifterSwift/Foundation (6.0.0)
+  - SwifterSwift/HealthKit (6.0.0)
+  - SwifterSwift/MapKit (6.0.0)
+  - SwifterSwift/SceneKit (6.0.0)
+  - SwifterSwift/SpriteKit (6.0.0)
+  - SwifterSwift/StoreKit (6.0.0)
+  - SwifterSwift/SwiftStdlib (6.0.0)
+  - SwifterSwift/UIKit (6.0.0)
+  - SwifterSwift/WebKit (6.0.0)
+  - SwiftNotificationCenter (1.0.4)
+  - SwiftyBeaver (1.9.5)
+  - SwiftyJSON (5.0.1)
+  - Toast-Swift (5.1.0)
+  - TTTAttributedLabel (2.0.0)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - Charts (~> 4.1.0)
+  - DateTimePicker (~> 2.5.3)
+  - DZNEmptyDataSet (~> 1.8.1)
+  - IQKeyboardManagerSwift (~> 6.5.16)
+  - JKCountDownButton (~> 1.3.0)
+  - JXCategoryView (~> 1.6.1)
+  - JXPhotoBrowser (~> 3.1.5)
+  - KeychainAccess (~> 4.2.2)
+  - Kingfisher (~> 7.11.0)
+  - MarqueeLabel (~> 4.3.2)
+  - MBProgressHUD (~> 1.2.0)
+  - MJRefresh (~> 3.7.6)
+  - Moya (~> 15.0.0)
+  - ObjectMapper (~> 4.2.0)
+  - PanModal (~> 1.2.7)
+  - ReachabilitySwift (~> 5.0.0)
+  - RTRootNavigationController (~> 0.8.1)
+  - SnapKit (~> 5.6.0)
+  - SwiftDate (~> 6.3.1)
+  - SwifterSwift (~> 6.0.0)
+  - SwiftNotificationCenter (~> 1.0.4)
+  - SwiftyBeaver (~> 1.9.5)
+  - SwiftyJSON (~> 5.0.1)
+  - Toast-Swift (~> 5.1.0)
+  - TTTAttributedLabel (~> 2.0.0)
+  - "UITextView+Placeholder (~> 1.4.0)"
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - DateTimePicker
+    - DZNEmptyDataSet
+    - IQKeyboardManagerSwift
+    - JKCountDownButton
+    - JXCategoryView
+    - JXPhotoBrowser
+    - KeychainAccess
+    - Kingfisher
+    - MarqueeLabel
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - PanModal
+    - ReachabilitySwift
+    - RTRootNavigationController
+    - SnapKit
+    - SwiftAlgorithms
+    - SwiftDate
+    - SwifterSwift
+    - SwiftNotificationCenter
+    - SwiftyBeaver
+    - SwiftyJSON
+    - Toast-Swift
+    - TTTAttributedLabel
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
+  DateTimePicker: 52701ddf656a50856d3510955933f767cd2c947c
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManagerSwift: 12d89768845bb77b55cc092ecc2b1f9370f06b76
+  JKCountDownButton: 3b557e75d23e7243bb63c8130e6d12d8510468dd
+  JXCategoryView: 7b1ee69ede4843c581688afe84d0f047723262f2
+  JXPhotoBrowser: a6d745f5711bde79b02ba29165e2456ab5bde476
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  MarqueeLabel: 15e524a6762552bb279cb17438b8a94990269fb9
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RTRootNavigationController: ca443783baf6ff65a70c4d21ce0eedbbc1fec1fe
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  SwifterSwift: 66843dc594f8fb890f5543c22545921d44acc004
+  SwiftNotificationCenter: 760386da2ce03d3594cb5e96d1e22ec80b44b46f
+  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Toast-Swift: dd369e68ee529f542c65bd0d0c6c50cd743cf6f2
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: 33eff5d100670ca19ad207565659297144f1ca79
+
+COCOAPODS: 1.12.1
