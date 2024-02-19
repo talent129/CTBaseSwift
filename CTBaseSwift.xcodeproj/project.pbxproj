@@ -34,6 +34,8 @@
 		E9B79EBB2B7E3A6900DD3F95 /* CTDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B79EBA2B7E3A6900DD3F95 /* CTDemoModel.swift */; };
 		E9B79EBD2B7E3AFE00DD3F95 /* CTDemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B79EBC2B7E3AFE00DD3F95 /* CTDemoCell.swift */; };
 		E9B79EBF2B7E3E2D00DD3F95 /* poemList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9B79EBE2B7E3E2D00DD3F95 /* poemList.plist */; };
+		E9B79EE12B8315A900DD3F95 /* CTIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B79EE02B8315A900DD3F95 /* CTIndexModel.swift */; };
+		E9B79EE32B83162100DD3F95 /* CTIndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B79EE22B83162100DD3F95 /* CTIndexCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		E9B79EBA2B7E3A6900DD3F95 /* CTDemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTDemoModel.swift; sourceTree = "<group>"; };
 		E9B79EBC2B7E3AFE00DD3F95 /* CTDemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTDemoCell.swift; sourceTree = "<group>"; };
 		E9B79EBE2B7E3E2D00DD3F95 /* poemList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = poemList.plist; sourceTree = "<group>"; };
+		E9B79EE02B8315A900DD3F95 /* CTIndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTIndexModel.swift; sourceTree = "<group>"; };
+		E9B79EE22B83162100DD3F95 /* CTIndexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTIndexCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +273,7 @@
 		E9B79E882B7DFD0D00DD3F95 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				E9B79EE02B8315A900DD3F95 /* CTIndexModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 		E9B79E892B7DFD0D00DD3F95 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				E9B79EE22B83162100DD3F95 /* CTIndexCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -444,9 +450,11 @@
 				E9B79E802B7DFA2E00DD3F95 /* CTHud.swift in Sources */,
 				E9B79E9A2B7E02AE00DD3F95 /* CTMoyaPlugin.swift in Sources */,
 				E9B79E962B7DFD6E00DD3F95 /* CTDiscoveryController.swift in Sources */,
+				E9B79EE12B8315A900DD3F95 /* CTIndexModel.swift in Sources */,
 				E9B79E5C2B7DE84A00DD3F95 /* AppDelegate.swift in Sources */,
 				E9B79EBD2B7E3AFE00DD3F95 /* CTDemoCell.swift in Sources */,
 				E9B79EA02B7E04A800DD3F95 /* CTService-Net.swift in Sources */,
+				E9B79EE32B83162100DD3F95 /* CTIndexCell.swift in Sources */,
 				E9B79EBB2B7E3A6900DD3F95 /* CTDemoModel.swift in Sources */,
 				E9B79EA92B7E0B1500DD3F95 /* CTConst.swift in Sources */,
 				E9B79EAD2B7E11BA00DD3F95 /* CTAppColorExt.swift in Sources */,
