@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3EC4E41488C3F081E17D5FAC /* Pods_CTBaseSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955A9D44A336DF55E3944C55 /* Pods_CTBaseSwift.framework */; };
+		E99742672B87133400433AC0 /* CTMineSubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99742662B87133400433AC0 /* CTMineSubController.swift */; };
 		E9B79E5C2B7DE84A00DD3F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B79E5B2B7DE84A00DD3F95 /* AppDelegate.swift */; };
 		E9B79E652B7DE84B00DD3F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B79E642B7DE84B00DD3F95 /* Assets.xcassets */; };
 		E9B79E682B7DE84B00DD3F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B79E662B7DE84B00DD3F95 /* LaunchScreen.storyboard */; };
@@ -42,6 +43,7 @@
 		3D18106DCE4725A7B3F1289D /* Pods-CTBaseSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTBaseSwift.release.xcconfig"; path = "Target Support Files/Pods-CTBaseSwift/Pods-CTBaseSwift.release.xcconfig"; sourceTree = "<group>"; };
 		52F1B439A25E3DF401269723 /* Pods-CTBaseSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTBaseSwift.debug.xcconfig"; path = "Target Support Files/Pods-CTBaseSwift/Pods-CTBaseSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		955A9D44A336DF55E3944C55 /* Pods_CTBaseSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTBaseSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99742662B87133400433AC0 /* CTMineSubController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTMineSubController.swift; sourceTree = "<group>"; };
 		E9B79E582B7DE84A00DD3F95 /* CTBaseSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTBaseSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B79E5B2B7DE84A00DD3F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9B79E642B7DE84B00DD3F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				E9B79E972B7DFD7800DD3F95 /* CTMineController.swift */,
+				E99742662B87133400433AC0 /* CTMineSubController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				E9B79E7C2B7DF88F00DD3F95 /* CTBaseNavigationController.swift in Sources */,
 				E9B79E9E2B7E043900DD3F95 /* CTService.swift in Sources */,
 				E9B79EB52B7E154C00DD3F95 /* CTNet.swift in Sources */,
+				E99742672B87133400433AC0 /* CTMineSubController.swift in Sources */,
 				E9B79EB32B7E147C00DD3F95 /* CTConfiguration.swift in Sources */,
 				E9B79E982B7DFD7800DD3F95 /* CTMineController.swift in Sources */,
 				E9B79EAF2B7E12FC00DD3F95 /* CTTool.swift in Sources */,
