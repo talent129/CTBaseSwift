@@ -23,7 +23,8 @@ class CTMineSubController: CTBaseController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         // 点击屏幕
         CTLog.debug("点击屏幕")
-        self.testBlock?(2024)
+        let int = Int.random(in: 0...2024)
+        self.testBlock?(int)
         self.navigationController?.popViewController(animated: true)
     }
 }

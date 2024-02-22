@@ -85,6 +85,8 @@ extension CTIndexController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID) as! CTIndexCell
         cell.selectionStyle = .none
+        // 4. 遵循代理
+        cell.protocolDelegate = self
         cell.model = self.list[indexPath.row]
         return cell
     }
@@ -102,5 +104,11 @@ extension CTIndexController: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         return nil
+    }
+}
+
+extension CTIndexController: CTIndexCellProtocol {
+    func cellBtnClick() {
+        CTLog.debug("代理方法实现")
     }
 }

@@ -65,7 +65,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     private func configThird(_ application: UIApplication, launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
-        
+        // log
+        let console = ConsoleDestination()  // log to Xcode Console
+        // add the destinations to SwiftyBeaver
+        CTLog.addDestination(console)
     }
 
 }
